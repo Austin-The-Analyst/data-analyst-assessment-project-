@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>COVID-19 Risk Predictor</title>
+</head>
+<body>
+    <h2>COVID-19 Risk Prediction</h2>
+    <form action="/predict" method="post">
+        <label>Fever: <input type="number" name="fever"></label><br>
+        <label>Tiredness: <input type="number" name="tiredness"></label><br>
+        <label>Dry Cough: <input type="number" name="dry_cough"></label><br>
+        <label>Difficulty in Breathing: <input type="number" name="breathing_difficulty"></label><br>
+        <label>Sore Throat: <input type="number" name="sore_throat"></label><br>
+        <label>Age: <input type="number" name="age"></label><br>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
